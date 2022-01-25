@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// Variables siempre arriba de todo.
+@import './variables/colores';
+
+// 2- Importaciones
+@import './utilidades/header';
+@import './secciones/index';
+@import './utilidades/footer';
+
+
+
+

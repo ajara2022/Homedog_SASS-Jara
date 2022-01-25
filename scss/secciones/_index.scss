@@ -1,0 +1,101 @@
+body{
+    background: rgb(237,211,204);
+    background: -moz-linear-gradient(180deg, rgba(237,211,204,1) 25%, rgba(220,218,219,1) 50%, rgba(215,204,198,1) 75%);
+    background: -webkit-linear-gradient(180deg, rgba(237,211,204,1) 25%, rgba(220,218,219,1) 50%, rgba(215,204,198,1) 75%);
+    background: linear-gradient(180deg, rgba(237,211,204,1) 25%, rgba(220,218,219,1) 50%, rgba(215,204,198,1) 75%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#edd3cc",endColorstr="#d7ccc6",GradientType=1); 
+
+    .container{
+
+        h1{
+            padding-bottom: 380px;
+            color: $color-texto;
+        }
+        
+        h2{
+            font-weight:bold;
+            color: $color-texto;
+            padding-bottom:40px;
+            padding-top:40px;
+        }
+
+        .card, .card-img  {
+            border: none;
+            border-radius: $border-radius;
+            box-shadow: $box-shadow;
+
+            .card-img-overlay {
+                padding: 20px;
+            }
+
+            .card-title {
+                font-weight:bold;
+                margin-top:28px;
+                margin-bottom:8px;
+                color:inherit;
+            }
+            .card-subtitle {
+                text-transform:uppercase;
+                font-weight:bold;
+                color:#d0d0d0;
+                letter-spacing:2px;
+                font-size: 1rem;
+            }
+            .card-text {
+                font-size:1rem;
+                margin-top:15px;
+                margin-bottom:20px;
+            }
+        }
+
+
+        .btn {
+            background-image: $background-btn;
+            border: none;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: inline-block;
+      
+        
+            &:hover {
+                background-position: right center; 
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+
+        .section2{
+
+            .card {
+                margin: 20px;
+                overflow: hidden;
+                }
+            
+        }
+
+        .section3{
+
+            .card {
+                background-color:#fff;
+                text-align:center;
+                transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+                cursor: pointer;
+
+                &:hover{
+                    transform: scale(1.05);
+                    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+                }
+            }
+            .rounded-circle{
+                width: 200px;
+                height: 200px;
+            }
+        }
+
+    }
+}
+
+    

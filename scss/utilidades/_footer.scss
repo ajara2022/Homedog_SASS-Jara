@@ -1,0 +1,45 @@
+.footer{
+
+    .title{
+        font-weight:bold;
+        color: $color-texto;
+        padding-bottom:20px;
+        padding-top:40px;
+    }
+
+    .list {
+        list-style: none;
+        padding: 5px;
+        margin: 5px;
+        font-size:20px;
+    }
+    
+    .list i{
+        margin: 5px;
+    }
+    
+    .list p{
+        margin: 0;
+        font-size:1.2rem;
+    }
+    
+    .list a{
+        text-decoration: none;
+        color: #313437;
+
+        &:hover{
+            color: #F15F79;
+        }
+    }
+    
+    .autor{
+        text-align: center;
+        padding: 30px;
+    }
+    
+    .social{
+        margin: 10px;
+        font-size:1.2rem;
+    }
+
+}
